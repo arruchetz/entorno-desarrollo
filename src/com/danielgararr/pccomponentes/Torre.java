@@ -1,9 +1,9 @@
 package com.danielgararr.pccomponentes;
 
 /**
- *Clase Tarjeta Grafica
+ *Clase Torre/Caja
  */
-public class TarjetaGrafica {
+public class Torre {
 
     /**
      * Atributos, propiedades, Variables

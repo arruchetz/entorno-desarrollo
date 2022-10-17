@@ -1,9 +1,9 @@
 package com.danielgararr.pccomponentes;
 
 /**
- *Clase Tarjeta Grafica
+ *Clase Ventilador CPU
  */
-public class TarjetaGrafica {
+public class VentiladorCpu {
 
     /**
      * Atributos, propiedades, Variables

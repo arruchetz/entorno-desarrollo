@@ -1,9 +1,9 @@
 package com.danielgararr.pccomponentes;
 
 /**
- *Clase Tarjeta Grafica
+ *Clase Disco Duro
  */
-public class TarjetaGrafica {
+public class DiscoDuro {
 
     /**
      * Atributos, propiedades, Variables

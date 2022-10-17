@@ -1,9 +1,9 @@
 package com.danielgararr.pccomponentes;
 
 /**
- *Clase Tarjeta Grafica
+ *Clase Fuente Alimentación
  */
-public class TarjetaGrafica {
+public class FuenteAlimentacion {
 
     /**
      * Atributos, propiedades, Variables

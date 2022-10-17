@@ -1,9 +1,9 @@
 package com.danielgararr.pccomponentes;
 
 /**
- *Clase Tarjeta Grafica
+ *Clase Memoria RAM
  */
-public class TarjetaGrafica {
+public class MemoriaRam {
 
     /**
      * Atributos, propiedades, Variables
