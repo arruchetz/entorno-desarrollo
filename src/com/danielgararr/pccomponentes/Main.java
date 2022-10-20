@@ -122,6 +122,21 @@ public class Main {
 
         /**
          * Código para ejecutar por un administrativo de la empresa.
+         * Código para introducir información de las fuentes de alimentación.
+         */
+        sourcefeed.setId(1);
+        sourcefeed.setMarca("MasterWatt Series 450W 80 Plus Bronze Semi Modular");
+        sourcefeed.setFabricante("Cooler Master");
+
+        System.out.println(sourcefeed.getId());
+        System.out.println(sourcefeed.getMarca());
+        System.out.println(sourcefeed.getFabricante());
+
+
+        TarjetaSonido sound = new TarjetaSonido();
+
+        /**
+         * Código para ejecutar por un administrativo de la empresa.
          * Código para introducir información de los discos duros.
          */
         sourcefeed.setId(1);
