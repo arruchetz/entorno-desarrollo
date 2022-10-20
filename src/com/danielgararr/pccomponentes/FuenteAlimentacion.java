@@ -1,20 +1,11 @@
 package com.danielgararr.pccomponentes;
 
-/**
- *Clase Fuente Alimentación
- */
 public class FuenteAlimentacion {
 
-    /**
-     * Atributos, propiedades, Variables
-     */
     private Integer id;
     private String marca;
     private String fabricante;
 
-    /**
-     * Metodos, secciones, comportamiento,
-     */
     public Integer getId(){
         return id;
     }

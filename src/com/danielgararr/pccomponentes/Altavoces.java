@@ -1,10 +1,11 @@
 package com.danielgararr.pccomponentes;
 
-public class PlacaBase {
+public class Altavoces {
 
     private Integer id;
     private String marca;
     private String fabricante;
+
 
     public Integer getId(){
         return id;
@@ -21,7 +22,6 @@ public class PlacaBase {
     }
 
     public String getFabricante(){
-
         return fabricante;
     }
     public void  setFabricante(String fabricante){

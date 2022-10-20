@@ -1,20 +1,11 @@
 package com.danielgararr.pccomponentes;
 
-/**
- *Clase Tarjeta Grafica
- */
 public class TarjetaGrafica {
 
-    /**
-     * Atributos, propiedades, Variables
-     */
     private Integer id;
     private String marca;
     private String fabricante;
 
-    /**
-     * Metodos, secciones, comportamiento,
-     */
     public Integer getId(){
         return id;
     }

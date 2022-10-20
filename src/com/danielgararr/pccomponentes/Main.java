@@ -4,36 +4,32 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Iniciando...");
-        Procesador amd = new Procesador();
+        Procesador cpu = new Procesador();
 
         /**
          * Código para ejecutar por un administrativo de la empresa.
          * Código para introducir información de procesadores.
          */
-        amd.setId(1);
-        amd.setMarca("Ryzen 6400");
-        amd.setFabricante("AMD");
+        cpu.setId(1);
+        cpu.setMarca("Ryzen 6400");
+        cpu.setFabricante("AMD");
 
-        System.out.println(amd.getId());
-        System.out.println(amd.getMarca());
-        System.out.println(amd.getFabricante());
+        System.out.println(cpu.getId());
+        System.out.println(cpu.getMarca());
+        System.out.println(cpu.getFabricante());
 
-        Procesador pentium = new Procesador();
-        pentium.setId(2);
-        pentium.setMarca("i7");
-        pentium.setFabricante("Intel");
+        Procesador cpu1 = new Procesador();
+        cpu1.setId(2);
+        cpu1.setMarca("i7");
+        cpu1.setFabricante("Intel");
 
-        System.out.println(pentium.getId());
-        System.out.println(pentium.getMarca());
-        System.out.println(pentium.getFabricante());
+        System.out.println(cpu1.getId());
+        System.out.println(cpu1.getMarca());
+        System.out.println(cpu1.getFabricante());
 
 
         PlacaBase motherboard = new PlacaBase();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de placas base.
-         */
         motherboard.setId(1);
         motherboard.setMarca("B450M PRO VDH MAX");
         motherboard.setFabricante("MSI");
@@ -45,10 +41,6 @@ public class Main {
 
         TarjetaGrafica gpu = new TarjetaGrafica();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de tarjetas graficas.
-         */
         gpu.setId(1);
         gpu.setMarca("RTX 3090 Ti");
         gpu.setFabricante("NVIDIA");
@@ -60,10 +52,6 @@ public class Main {
 
         MemoriaRam ram = new MemoriaRam();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de las memorias ram.
-         */
         ram.setId(1);
         ram.setMarca("Vengeance LPX DDR4 3200Mhz PC4-25600 16GB 2X8GB CL16");
         ram.setFabricante("Corsair");
@@ -75,10 +63,6 @@ public class Main {
 
         Torre tower = new Torre();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de las cajas/torres.
-         */
         tower.setId(1);
         tower.setMarca("Krater Cristal Templado USB 3.0 ARGB");
         tower.setFabricante("Nfortec");
@@ -90,10 +74,6 @@ public class Main {
 
         VentiladorCpu fan = new VentiladorCpu();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de los ventiladores para el procesador.
-         */
         fan.setId(1);
         fan.setMarca("Liquid Cooler 120 RGB Kit de Refrigeración Líquida");
         fan.setFabricante("Tempest");
@@ -105,10 +85,6 @@ public class Main {
 
         DiscoDuro hardisk = new DiscoDuro();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de los discos duros.
-         */
         hardisk.setId(1);
         hardisk.setMarca("A400 SSD 240GB");
         hardisk.setFabricante("Kingston");
@@ -120,10 +96,6 @@ public class Main {
 
         FuenteAlimentacion sourcefeed = new FuenteAlimentacion();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de las fuentes de alimentación.
-         */
         sourcefeed.setId(1);
         sourcefeed.setMarca("MasterWatt Series 450W 80 Plus Bronze Semi Modular");
         sourcefeed.setFabricante("Cooler Master");
@@ -135,10 +107,6 @@ public class Main {
 
         TarjetaSonido sound = new TarjetaSonido();
 
-        /**
-         * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de las tarjetas de sonido.
-         */
         sound.setId(1);
         sound.setMarca("Xonar SE Interno 5.1 Canales PCI-E");
         sound.setFabricante("Asus");
@@ -146,5 +114,60 @@ public class Main {
         System.out.println(sound.getId());
         System.out.println(sound.getMarca());
         System.out.println(sound.getFabricante());
+
+
+        GrabadoraDvd dvd = new GrabadoraDvd();
+
+        dvd.setId(1);
+        dvd.setMarca("DRW-24D5MT Grabadora DVD 24X");
+        dvd.setFabricante("Asus");
+
+        System.out.println(dvd.getId());
+        System.out.println(dvd.getMarca());
+        System.out.println(dvd.getFabricante());
+
+
+        Monitor screen = new Monitor();
+
+        screen.setId(1);
+        screen.setMarca("Optix G27C7 27 Pulgadas LED FullHD 165Hz FreeSync Premium Curva");
+        screen.setFabricante("MSI");
+
+        System.out.println(screen.getId());
+        System.out.println(screen.getMarca());
+        System.out.println(screen.getFabricante());
+
+
+        Teclado keyboard = new Teclado();
+
+        keyboard.setId(1);
+        keyboard.setMarca("Huntsman Mini Teclado Gaming Red Switch");
+        keyboard.setFabricante("Razer");
+
+        System.out.println(keyboard.getId());
+        System.out.println(keyboard.getMarca());
+        System.out.println(keyboard.getFabricante());
+
+
+        Raton mouse = new Raton();
+
+        mouse.setId(1);
+        mouse.setMarca("Pro X Superlight Ratón Gaming Inalámbrico 25.600DPI Rosa");
+        mouse.setFabricante("Logitech");
+
+        System.out.println(mouse.getId());
+        System.out.println(mouse.getMarca());
+        System.out.println(mouse.getFabricante());
+
+
+        Altavoces speaker = new Altavoces();
+
+        speaker.setId(1);
+        speaker.setMarca("M10 RGB Hero 2.0 Gaming Speakers");
+        speaker.setFabricante("Tempest");
+
+        System.out.println(speaker.getId());
+        System.out.println(speaker.getMarca());
+        System.out.println(speaker.getFabricante());
     }
 }
