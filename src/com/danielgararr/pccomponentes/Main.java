@@ -137,14 +137,14 @@ public class Main {
 
         /**
          * Código para ejecutar por un administrativo de la empresa.
-         * Código para introducir información de los discos duros.
+         * Código para introducir información de las tarjetas de sonido.
          */
-        sourcefeed.setId(1);
-        sourcefeed.setMarca("A400 SSD 240GB");
-        sourcefeed.setFabricante("Kingston");
+        sound.setId(1);
+        sound.setMarca("Xonar SE Interno 5.1 Canales PCI-E");
+        sound.setFabricante("Asus");
 
-        System.out.println(sourcefeed.getId());
-        System.out.println(sourcefeed.getMarca());
-        System.out.println(sourcefeed.getFabricante());
+        System.out.println(sound.getId());
+        System.out.println(sound.getMarca());
+        System.out.println(sound.getFabricante());
     }
 }
